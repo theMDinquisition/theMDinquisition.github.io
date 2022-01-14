@@ -12,7 +12,7 @@ html, body{margin: 0; padding: 0; float: none; width: auto;}
 .body{padding-top: 2%; padding-bottom: 2%;}
 .type1{background-color: #f2ddb9; background-size: 100% 100%; padding-top: 0.5%; padding-bottom: 0.5%;}
 .type2{background-color: #ffffff; background-size: 100% 100%; padding-top: 0.5%; padding-bottom: 0.5%;}
-.preamble{text-align: center; background-image: url(frame.jpg); background-repeat: no-repeat; background-color: #c5c584; background-size: 100% 100%; line-height: 250%; padding: 20%; padding-top: 22%; padding-bottom: 22%;}
+.preamble{text-align: center; background-image: url(frame.jpg); background-repeat: no-repeat; background-color: #ffffff; background-size: 100% 100%; line-height: 250%; padding: 20%; padding-top: 22%; padding-bottom: 22%;}
 a{font-family: monospace;}
 a{color: orange;}
 @media screen and (min-width: 1020px){
