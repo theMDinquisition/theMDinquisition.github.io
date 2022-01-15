@@ -1,4 +1,4 @@
-html, body{margin: 0; padding: 0; float: none; width: auto;}
+html, body{margin: 0; padding: 0; float: none; width: auto; font-size: 1.5vmax;}
 #header{margin: 0; padding: 0; overflow: hidden; background-color: cyan;}
 .content{margin-left: 2%; color: #000000; line-height: 125%;}
 #fwi{width: 100%; height: auto; max-height: 100%;}
@@ -12,39 +12,28 @@ html, body{margin: 0; padding: 0; float: none; width: auto;}
 .body{padding-top: 2%; padding-bottom: 2%;}
 .type1{background-color: #f2ddb9; background-size: 100% 100%; padding-top: 0.5%; padding-bottom: 0.5%;}
 .type2{background-color: #ffffff; background-size: 100% 100%; padding-top: 0.5%; padding-bottom: 0.5%;}
-.preamble{text-align: center; background-image: url(frame.jpg); background-repeat: no-repeat; background-color: #ffffff; background-size: 100% 100%; line-height: 250%; padding: 20%; padding-top: 22%; padding-bottom: 22%;}
+.preamble{text-align: center; background-image: url(frame.png); background-repeat: no-repeat; background-color: #ffffff; background-size: 100% 100%; line-height: 250%; padding: 20%; padding-top: 22%; padding-bottom: 22%;}
 a{font-family: monospace;}
 a{color: orange;}
-@media screen and (min-width: 1020px){
-  body{font-size: 20px;}
-}
-@media screen and (max-width: 1019px) and (min-width: 850px){
+@media (max-device-width: 1019px) and (min-device-width: 850px){
   #header{background-color: black;}
-  .preamble{padding: 20%; padding-top: 25%; padding-bottom: 25%; line-height: 250%;}
-  body{font-size: 18px;}
 }
-@media screen and (max-width: 849px) and (min-width: 650px){
+@media (max-device-width: 849px) and (min-device-width: 650px){
   #header{background-color: red;}
-  .preamble{padding: 20%; padding-top: 30%; padding-bottom: 30%; line-height: 200%;}
-  body{font-size: 16px;}
 }
-@media screen and (max-width: 649px) and (min-width: 500px){
+@media (max-device-width: 649px) and (min-device-width: 500px){
   #header{background-color: green;}
-  .preamble{padding: 20%; padding-top: 30%; padding-bottom: 30%;  line-height: 150%;}
-  body{font-size: 14px;}
+  .preamble{line-height: 200%;}
 }
-@media screen and (max-width: 499px) and (min-width: 350px){
+@media (max-device-width: 499px) and (min-device-width: 350px){
   #header{background-color: yellow;}
-  .preamble{padding: 20%; padding-top: 35%; padding-bottom: 35%; line-height: 125%;}
-  body{font-size: 12px;}
+  .preamble{line-height: 125%;}
 }
-@media screen and (max-width: 349px) and (min-width: 300px){
+@media (max-device-width: 349px) and (min-device-width: 300px){
   #header{background-color: pink;}
-  .preamble{padding: 20%; padding-top: 40%; padding-bottom: 40%; line-height: 100%;}
-  body{font-size: 12px;}
+  .preamble{line-height: 100%;}
 }
-@media screen and (max-width: 299px) and (min-width: 0px){
+@media (max-device-width: 299px) and (min-device-width: 0px){
   #header{background-color: pink;}
-  .preamble{padding: 20%; padding-top: 40%; padding-bottom: 50%; line-height: 100%;}
-  body{font-size: 10px;}
+  .preamble{line-height: 100%;}
 }
